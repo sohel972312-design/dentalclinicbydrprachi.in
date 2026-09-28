@@ -13,7 +13,7 @@ export default function HeroSection() {
                         <div className="">
 
                             <Link href="/" className="font-semibold text-xl tracking-tight text-slate-800  flex items-center  ">
-                                <Image src="/images/logo.png" alt="Logo" className="h-20 w-auto" width={100} height={100} /> Dr. Prachi's <span className="font-light text-slate-500">Dental Clinic</span>
+                                <Image src="/images/logo.png" alt="Logo" className="h-20 w-auto" width={100} height={100} /> Dr. Prachi's&nbsp;<span className="font-light text-slate-500">Dental Clinic</span>
                             </Link>
                         </div>
 
@@ -23,10 +23,11 @@ export default function HeroSection() {
                                 <Link href="#services" className="hover:text-[#B185DB] transition-colors">Services</Link>
                                 <Link href="#about" className="hover:text-[#B185DB] transition-colors">About</Link>
                                 <Link href="#reviews" className="hover:text-[#B185DB] transition-colors">Reviews</Link>
+                                <Link href="#gallery" className="hover:text-[#B185DB] transition-colors">Gallery</Link>
                             </nav>
-                            <button className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-medium text-white bg-[#B185DB] rounded-full hover:bg-teal-700 hover:shadow-md transition-all duration-300">
+                            <a href='#book' className="inline-flex items-center justify-center px-6 py-2.5 text-sm font-medium text-white bg-[#B185DB] rounded-full hover:bg-teal-700 hover:shadow-md transition-all duration-300">
                                 Book Appointment
-                            </button>
+                            </a >
                         </div>
 
                         {/* Mobile Menu Button (Placeholder) */}

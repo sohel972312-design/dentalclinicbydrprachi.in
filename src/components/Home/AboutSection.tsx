@@ -26,7 +26,7 @@ export default function AboutSection() {
                         </div>
 
                         {/* Floating Glassmorphic Stat Card 1 */}
-                        <div className="absolute top-8 -right-4 sm:-right-8 lg:-right-6 bg-white/80 backdrop-blur-md p-5 rounded-2xl shadow-xl border border-white/60 flex items-center gap-4 animate-fade-in-up">
+                        <div className="absolute top-70 -right-4 sm:-right-8 lg:-right-6 bg-white/80 backdrop-blur-md p-5 rounded-2xl shadow-xl border border-white/60 flex items-center gap-4 animate-fade-in-up">
                             <div className="w-12 h-12 bg-[#B185DB]/15 rounded-full flex items-center justify-center flex-shrink-0">
                                 <Heart className="w-6 h-6 text-[#B185DB]" />
                             </div>
